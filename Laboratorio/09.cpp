@@ -3,12 +3,16 @@
 using namespace std;
 
 int main() {
-    int vector[10];
-    int sum;
+    int vectorNums[10];
+    int sum = 0;
+
+    for (int i = 0; i < 10; ++i) {
+        cin >> vectorNums[i];
+    }
     
     for (int i = 0; i < 10; i++) {
-        if (vector[i] < 0) {
-            sum += vector[i];
+        if (vectorNums[i] < 0) {
+            sum += vectorNums[i];
         }
     }
 

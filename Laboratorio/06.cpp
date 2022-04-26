@@ -5,7 +5,7 @@ using namespace std;
 string toBinary(int num) {
     int pot = 1;
     string final = "";
-    for (int i = 0; i < 15; i++) {
+    for (int i = 0; i < 128; i++) {
         pot *= 2;
         if (pot > num) {
             pot /= 2;
