@@ -2,7 +2,9 @@
 
 ## Laboratorio
 
-- [x] ...
+- 02:
+- [x] Sumar todos los enteros pares desde 2 hasta 100.
+- [x]
 
 ## Teoría
 
